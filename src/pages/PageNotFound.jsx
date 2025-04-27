@@ -3,7 +3,6 @@ import pageNotFoundImage from "../assets/pageNotFound.jpg";
 import { useEffect } from "react";
 
 export const PageNotFound = ({title}) => {
-
     const navigate = useNavigate();
 
     const handlButton = () => {
